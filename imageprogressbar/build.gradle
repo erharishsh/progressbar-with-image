@@ -1,5 +1,28 @@
 apply plugin: 'com.android.library'
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'pb-imageview'
 
+    publishedGroupId = 'com.hs.customviews'
+    libraryName = 'PBIMAGE'
+    artifact = 'pb-imageview'
+
+    libraryDescription = 'A custom android component to show progress of some asynchronous operation with different images for different states.'
+
+    siteUrl = 'https://github.com/erharishsh/progressbar-with-image'
+    gitUrl = 'https://github.com/erharishsh/progressbar-with-image.git'
+
+    libraryVersion = '1.0'
+
+    developerId = 'harish'
+    developerName = 'Harish Sharma'
+    developerEmail = 'er.harish.sh@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+
+}
 android {
     compileSdkVersion 27
 
