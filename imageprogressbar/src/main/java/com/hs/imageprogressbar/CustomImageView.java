@@ -1,5 +1,7 @@
 package com.hs.imageprogressbar;
 
+import android.annotation.SuppressLint;
+import android.annotation.TargetApi;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -9,6 +11,7 @@ import android.graphics.PorterDuffXfermode;
 import android.graphics.Rect;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.widget.ImageView;
@@ -16,6 +19,7 @@ import android.widget.ImageView;
 /**
  * @author Harish Sharma
  */
+@SuppressLint("AppCompatCustomView")
 public class CustomImageView extends ImageView {
 
     //parameter to decide the radius of circular image
@@ -57,6 +61,7 @@ public class CustomImageView extends ImageView {
      * @param defStyleAttr 
      * @param defStyleRes 
      */
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     public CustomImageView(Context context, @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
     }

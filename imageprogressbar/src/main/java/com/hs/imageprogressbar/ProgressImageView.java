@@ -1,8 +1,10 @@
 package com.hs.imageprogressbar;
 
+import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Color;
+import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
@@ -45,6 +47,7 @@ public class ProgressImageView extends FrameLayout {
     }
 
 
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     public ProgressImageView(@NonNull Context context, @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
         init(context, attrs);

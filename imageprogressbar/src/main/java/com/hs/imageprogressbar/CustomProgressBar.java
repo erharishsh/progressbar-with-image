@@ -1,9 +1,11 @@
 package com.hs.imageprogressbar;
 
+import android.annotation.TargetApi;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
+import android.os.Build;
 import android.util.AttributeSet;
 import android.widget.ProgressBar;
 
@@ -32,6 +34,7 @@ public class CustomProgressBar extends ProgressBar {
     }
 
 
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     public CustomProgressBar(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
     }
