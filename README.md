@@ -1,6 +1,7 @@
 # progressbar-with-image
 A custom android component to show progress of some asynchronous operation with different images for different states.
-
+![picture](https://user-images.githubusercontent.com/18004938/39627475-a9381c64-4fc3-11e8-80cb-285a245138b2.png)
+![picture](https://user-images.githubusercontent.com/18004938/39627434-88a71db0-4fc3-11e8-95a0-8c4a243bdeee.png)
 ## USAGE
 To make a circular progressbar with image just add the ProgressImageView in your XML.
 Add the following line in your build.gradle to grab the library via gradle.
