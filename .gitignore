@@ -6,3 +6,7 @@
 .DS_Store
 /build
 /gradle.properties
+/proguard-rules.pro
+/src/androidTest
+/src/test
+*.iml
