@@ -13,8 +13,8 @@
         android:layout_width="wrap_content"
         app:radius="100dp"
         app:thickness="10dp"
-        app:start_image="@drawable/download_gray"
-        app:end_image="@drawable/download"
+        app:start_image="@drawable/download_grey"
+        app:end_image="@drawable/download_blue"
         android:layout_height="wrap_content">
 
     </com.hs.progressbutton.ProgressImageView>
