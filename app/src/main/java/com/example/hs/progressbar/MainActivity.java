@@ -4,7 +4,7 @@ import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.hs.imageprogressbar.ProgressImageView;
+import com.hs.progressbutton.ProgressImageView;
 
 
 public class MainActivity extends AppCompatActivity {

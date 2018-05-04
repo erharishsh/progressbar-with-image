@@ -11,6 +11,29 @@ def libGroupId = libGroupId;
 def libArtifactId = libArtifactId;
 
 
+android {
+    compileSdkVersion 27
+
+
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionName project.projectVersionName
+        versionCode Integer.parseInt(project.projectVersionCode)
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
 
 group = libGroupId
 version = projectVersionName
@@ -39,11 +62,31 @@ install {
     }
 }
 
+task sourcesJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+    classifier = 'sources'
+}
+
+task javadoc(type: Javadoc) {
+    source = android.sourceSets.main.java.srcDirs
+    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
+}
+
+task javadocJar(type: Jar, dependsOn: javadoc) {
+    classifier = 'javadoc'
+    from javadoc.destinationDir
+}
+
+artifacts {
+    archives javadocJar
+    archives sourcesJar
+}
+
 bintray {
     user = bintray_user
     key = bintray_apikey
     pkg {
-        repo = libGroupId
+        repo = 'android'
         name = libArtifactId
 //        userOrg = bintray_user_org
         licenses = ['Apache-2.0']
@@ -57,30 +100,6 @@ bintray {
         }
     }
     configurations = ['archives']
-}
-
-android {
-    compileSdkVersion 27
-
-
-
-    defaultConfig {
-        minSdkVersion 15
-        targetSdkVersion 27
-        versionCode 1
-        versionName "1.0"
-
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
-    }
-
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
-    }
-
 }
 
 dependencies {

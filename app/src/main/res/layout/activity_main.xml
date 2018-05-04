@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
 
-    <com.hs.imageprogressbar.ProgressImageView
+    <com.hs.progressbutton.ProgressImageView
         android:id="@+id/layout"
         android:layout_width="wrap_content"
         app:radius="100dp"
@@ -17,7 +17,7 @@
         app:end_image="@drawable/download"
         android:layout_height="wrap_content">
 
-    </com.hs.imageprogressbar.ProgressImageView>
+    </com.hs.progressbutton.ProgressImageView>
 
 
 </LinearLayout>
