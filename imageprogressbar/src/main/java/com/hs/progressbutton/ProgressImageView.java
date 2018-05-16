@@ -23,6 +23,9 @@ public class ProgressImageView extends FrameLayout {
     public static final int DEFAULT_THICKNESS = 3;
     public static final int DEFAULT_RING_COLOR = Color.parseColor("#ffff00ff");
 
+    public enum ProgressState{
+        START,PROGRESS,PAUSED,END
+    }
 
     // custom views
     private CustomProgressBar mProgressBar;
@@ -63,7 +66,7 @@ public class ProgressImageView extends FrameLayout {
         int width = dpToPx(context, DEFAULT_RADIUS);
         int thickness = dpToPx(context, DEFAULT_THICKNESS);
         int ringColor = 0;
-        int startImage = 0, endImage = 0;
+        int startImage = 0, endImage = 0,progressImage=0,pauseImage=0;
         TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.ProgressImageView, 0, 0);
         try {
             if (attrs != null) {
@@ -72,6 +75,8 @@ public class ProgressImageView extends FrameLayout {
                 ringColor = a.getColor(R.styleable.ProgressImageView_ring_color, DEFAULT_RING_COLOR);
                 startImage = a.getResourceId(R.styleable.ProgressImageView_start_image, 0);
                 endImage = a.getResourceId(R.styleable.ProgressImageView_end_image, 0);
+                progressImage = a.getResourceId(R.styleable.ProgressImageView_progress_image, 0);
+                pauseImage = a.getResourceId(R.styleable.ProgressImageView_pause_image, 0);
             }
         } catch (Exception ex) {
             ex.printStackTrace();
@@ -87,6 +92,8 @@ public class ProgressImageView extends FrameLayout {
         mImageView.setLayoutParams(new LayoutParams(circularImageWidth, circularImageWidth, Gravity.CENTER));
         mImageView.setStartImage(startImage);
         mImageView.setEndImage(endImage);
+        mImageView.setProgressImage(progressImage);
+        mImageView.setPauseImage(pauseImage);
 
         mProgressBar = progressbar.findViewById(R.id.progress);
         mProgressBar.setLayoutParams(new LayoutParams(width * 2 + thickness, width * 2 + thickness, Gravity.CENTER));
@@ -114,6 +121,24 @@ public class ProgressImageView extends FrameLayout {
         if (progress == 100) {
             mImageView.showEndImage();
         }
+    }
+
+    /**
+     * method to set the progress for progressbar/ring around the imageview.
+     *
+     * @param progressState current state of the progress.Represented by the #{{@link ProgressState}}
+     */
+    public void updateProgressState(ProgressState progressState) {
+      switch (progressState){
+          case START:
+              mImageView.showStartImage();break;
+          case PROGRESS:
+              mImageView.showProgressImage();break;
+          case PAUSED:
+              mImageView.showPauseImage();break;
+          case END:
+              mImageView.showEndImage();break;
+      }
     }
 
     /**

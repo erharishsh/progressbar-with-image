@@ -15,6 +15,8 @@
         app:thickness="10dp"
         app:start_image="@drawable/download_grey"
         app:end_image="@drawable/download_blue"
+        app:pause_image="@drawable/download_blue"
+        app:progress_image="@drawable/download_grey"
         android:layout_height="wrap_content">
 
     </com.hs.progressbutton.ProgressImageView>

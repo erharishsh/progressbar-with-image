@@ -26,7 +26,7 @@ public class CustomImageView extends ImageView {
     private int desiredWidth;
 
     // images to be shown at start and end of progress.
-    private int mStartImage, mEndImage;
+    private int mStartImage, mEndImage,mProgressImage,mPauseImage;
 
     /**
      * @param context 
@@ -148,6 +148,14 @@ public class CustomImageView extends ImageView {
     }
 
     /**
+     * change the image drawable to the start image set.
+     */
+    public void showStartImage() {
+        if (mStartImage != 0)
+            setImageResource(mStartImage);
+    }
+
+    /**
      * 
      * @param drawable 
      */
@@ -162,6 +170,43 @@ public class CustomImageView extends ImageView {
         if (mEndImage != 0)
             setImageResource(mEndImage);
     }
+
+
+
+    /**
+     *set a image drawable for some intermediate state of progress.like in pause state
+     * @param drawable
+     */
+    public void setProgressImage(int drawable) {
+        mProgressImage = drawable;
+    }
+
+    /**
+     * change the image drawable to the intermediate image.
+     */
+    public void showProgressImage() {
+        if (mProgressImage != 0)
+            setImageResource(mProgressImage);
+    }
+
+
+
+    /**
+     *set a image drawable for some intermediate state of progress.like in pause state
+     * @param drawable
+     */
+    public void setPauseImage(int drawable) {
+        mPauseImage = drawable;
+    }
+
+    /**
+     * change the image drawable to the intermediate image.
+     */
+    public void showPauseImage() {
+        if (mPauseImage != 0)
+            setImageResource(mPauseImage);
+    }
+
 
 }
 

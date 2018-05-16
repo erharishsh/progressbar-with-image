@@ -6,6 +6,8 @@
         <attr name="thickness" format="dimension"/>
         <attr name="start_image" format="reference"/>
         <attr name="end_image" format="reference"/>
+        <attr name="progress_image" format="reference"/>
+        <attr name="pause_image" format="reference"/>
         <attr name="ring_color" format="color"/>
     </declare-styleable>
 
