@@ -17,6 +17,8 @@ Add the following line in your build.gradle to grab the library via gradle.
         app:thickness="10dp"
         app:start_image="@drawable/download_gray"
         app:end_image="@drawable/download"
+        app:pause_image="@drawable/download_blue"
+        app:progress_image="@drawable/download_grey"
         app:ring_color="#00ff0f"
         android:layout_height="wrap_content">
     </com.hs.progressbutton.ProgressImageView>
@@ -25,6 +27,11 @@ Add the following line in your build.gradle to grab the library via gradle.
 Here is the list of properties you must use to configure this view:
  1. app:radius (in dp) ==> sets the size of the view.
  2. app:thickness (in dp)  ==> sets the thickness of the progress ring.
- 3. app:start_image (drawable)  ==> image to be shown when in progress
- 4. app:end_image (drawable)  ==> image to be shown on completion of progress.
- 5. app:ring_color (color)  ==> color of the circular progressbar.
+ 3. app:start_image (drawable)  ==> initial image to be shown on the view
+ 4. app:progress_image (drawable)  ==> image to be shown when in progress
+ 5. app:pause_image (drawable)  ==> image to be shown when progress is paused.
+ 6. app:end_image (drawable)  ==> image to be shown on completion of progress.
+ 7. app:ring_color (color)  ==> color of the circular progressbar.
+ 
+ #Note:
+ images on the view can be updated by calling updateProgressState method over the view with current state of progress.
