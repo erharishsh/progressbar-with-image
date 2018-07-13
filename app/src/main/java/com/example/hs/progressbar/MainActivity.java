@@ -17,6 +17,8 @@ int i=0;
         setContentView(R.layout.activity_main);
         layout=findViewById(R.id.layout);
 
+        layout.setState(ProgressImageView.ProgressState.START.value()); // set initial state value
+
         layout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

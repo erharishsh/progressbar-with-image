@@ -17,6 +17,7 @@
         app:end_image="@drawable/download_blue"
         app:pause_image="@drawable/download_blue"
         app:progress_image="@drawable/download_grey"
+        app:complete_ring_color="@color/colorAccent"
         android:layout_height="wrap_content">
 
     </com.hs.progressbutton.ProgressImageView>

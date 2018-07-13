@@ -9,6 +9,9 @@
         <attr name="progress_image" format="reference"/>
         <attr name="pause_image" format="reference"/>
         <attr name="ring_color" format="color"/>
+        <attr name="complete_ring_color" format="color"/>
+        <attr name="state" format="integer">
+        </attr>
     </declare-styleable>
 
 </resources>

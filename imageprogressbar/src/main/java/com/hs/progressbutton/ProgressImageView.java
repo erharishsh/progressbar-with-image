@@ -23,8 +23,20 @@ public class ProgressImageView extends FrameLayout {
     public static final int DEFAULT_THICKNESS = 3;
     public static final int DEFAULT_RING_COLOR = Color.parseColor("#ffff00ff");
 
+    private ProgressState progressState;
+    private int completeRingColor=-1;
+
     public enum ProgressState{
-        START,PROGRESS,PAUSED,END
+        START(0),PROGRESS(1),PAUSED(2),END(3);
+        int value;
+        ProgressState(int i) {
+            value=i;
+        }
+
+        public int value(){
+            return value;
+        }
+
     }
 
     // custom views
@@ -73,6 +85,7 @@ public class ProgressImageView extends FrameLayout {
                 width = (int) a.getDimension(R.styleable.ProgressImageView_radius, DEFAULT_RADIUS);
                 thickness = (int) a.getDimension(R.styleable.ProgressImageView_thickness, DEFAULT_THICKNESS);
                 ringColor = a.getColor(R.styleable.ProgressImageView_ring_color, DEFAULT_RING_COLOR);
+                completeRingColor = a.getColor(R.styleable.ProgressImageView_complete_ring_color, ringColor);
                 startImage = a.getResourceId(R.styleable.ProgressImageView_start_image, 0);
                 endImage = a.getResourceId(R.styleable.ProgressImageView_end_image, 0);
                 progressImage = a.getResourceId(R.styleable.ProgressImageView_progress_image, 0);
@@ -120,6 +133,7 @@ public class ProgressImageView extends FrameLayout {
         mProgressBar.setProgress(progress);
         if (progress == 100) {
             mImageView.showEndImage();
+            mProgressBar.setProgressColor(completeRingColor);
         }
     }
 
@@ -129,6 +143,7 @@ public class ProgressImageView extends FrameLayout {
      * @param progressState current state of the progress.Represented by the #{{@link ProgressState}}
      */
     public void updateProgressState(ProgressState progressState) {
+        this.progressState=progressState;
       switch (progressState){
           case START:
               mImageView.showStartImage();break;
@@ -139,6 +154,24 @@ public class ProgressImageView extends FrameLayout {
           case END:
               mImageView.showEndImage();break;
       }
+    }
+
+
+    public void setState(int progressState) {
+        switch (progressState){
+            case 0:
+                this.progressState=ProgressState.START;
+                mImageView.showStartImage();break;
+            case 1:
+                this.progressState=ProgressState.PROGRESS;
+                mImageView.showProgressImage();break;
+            case 2:
+                this.progressState=ProgressState.PAUSED;
+                mImageView.showPauseImage();break;
+            case 3:
+                this.progressState=ProgressState.END;
+                mImageView.showEndImage();break;
+        }
     }
 
     /**
