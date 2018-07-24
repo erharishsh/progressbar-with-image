@@ -24,16 +24,17 @@ public class ProgressImageView extends FrameLayout {
     public static final int DEFAULT_RING_COLOR = Color.parseColor("#ffff00ff");
 
     private ProgressState progressState;
-    private int completeRingColor=-1;
+    private int completeRingColor = -1;
 
-    public enum ProgressState{
-        START(0),PROGRESS(1),PAUSED(2),END(3);
+    public enum ProgressState {
+        START(0), PROGRESS(1), PAUSED(2), END(3), ERROR(4);
         int value;
+
         ProgressState(int i) {
-            value=i;
+            value = i;
         }
 
-        public int value(){
+        public int value() {
             return value;
         }
 
@@ -78,7 +79,7 @@ public class ProgressImageView extends FrameLayout {
         int width = dpToPx(context, DEFAULT_RADIUS);
         int thickness = dpToPx(context, DEFAULT_THICKNESS);
         int ringColor = 0;
-        int startImage = 0, endImage = 0,progressImage=0,pauseImage=0;
+        int startImage = 0, endImage = 0, progressImage = 0, pauseImage = 0,errorImage=0,secondaryProgressColor=Color.TRANSPARENT;
         TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.ProgressImageView, 0, 0);
         try {
             if (attrs != null) {
@@ -86,8 +87,10 @@ public class ProgressImageView extends FrameLayout {
                 thickness = (int) a.getDimension(R.styleable.ProgressImageView_thickness, DEFAULT_THICKNESS);
                 ringColor = a.getColor(R.styleable.ProgressImageView_ring_color, DEFAULT_RING_COLOR);
                 completeRingColor = a.getColor(R.styleable.ProgressImageView_complete_ring_color, ringColor);
+                secondaryProgressColor = a.getColor(R.styleable.ProgressImageView_secondary_ring_color, Color.TRANSPARENT);
                 startImage = a.getResourceId(R.styleable.ProgressImageView_start_image, 0);
                 endImage = a.getResourceId(R.styleable.ProgressImageView_end_image, 0);
+                errorImage = a.getResourceId(R.styleable.ProgressImageView_error_image, 0);
                 progressImage = a.getResourceId(R.styleable.ProgressImageView_progress_image, 0);
                 pauseImage = a.getResourceId(R.styleable.ProgressImageView_pause_image, 0);
             }
@@ -107,14 +110,15 @@ public class ProgressImageView extends FrameLayout {
         mImageView.setEndImage(endImage);
         mImageView.setProgressImage(progressImage);
         mImageView.setPauseImage(pauseImage);
-
+        mImageView.setErrorImage(errorImage);
         mProgressBar = progressbar.findViewById(R.id.progress);
         mProgressBar.setLayoutParams(new LayoutParams(width * 2 + thickness, width * 2 + thickness, Gravity.CENTER));
 
         try {
+            mProgressBar.setColor(secondaryProgressColor);
             mProgressBar.setInnerRadius(width - thickness);
             mProgressBar.setThickness(thickness);
-            mProgressBar.setProgressColor(ringColor);
+            // mProgressBar.setProgressColor(ringColor);
         } catch (NoSuchFieldException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {
@@ -143,34 +147,49 @@ public class ProgressImageView extends FrameLayout {
      * @param progressState current state of the progress.Represented by the #{{@link ProgressState}}
      */
     public void updateProgressState(ProgressState progressState) {
-        this.progressState=progressState;
-      switch (progressState){
-          case START:
-              mImageView.showStartImage();break;
-          case PROGRESS:
-              mImageView.showProgressImage();break;
-          case PAUSED:
-              mImageView.showPauseImage();break;
-          case END:
-              mImageView.showEndImage();break;
-      }
+        this.progressState = progressState;
+        switch (progressState) {
+            case START:
+                mImageView.showStartImage();
+                break;
+            case PROGRESS:
+                mImageView.showProgressImage();
+                break;
+            case PAUSED:
+                mImageView.showPauseImage();
+                break;
+            case END:
+                mImageView.showEndImage();
+                break;
+            case ERROR:
+                mImageView.showErrorImage();
+                break;
+        }
     }
 
 
     public void setState(int progressState) {
-        switch (progressState){
+        switch (progressState) {
             case 0:
-                this.progressState=ProgressState.START;
-                mImageView.showStartImage();break;
+                this.progressState = ProgressState.START;
+                mImageView.showStartImage();
+                break;
             case 1:
-                this.progressState=ProgressState.PROGRESS;
-                mImageView.showProgressImage();break;
+                this.progressState = ProgressState.PROGRESS;
+                mImageView.showProgressImage();
+                break;
             case 2:
-                this.progressState=ProgressState.PAUSED;
-                mImageView.showPauseImage();break;
+                this.progressState = ProgressState.PAUSED;
+                mImageView.showPauseImage();
+                break;
             case 3:
-                this.progressState=ProgressState.END;
-                mImageView.showEndImage();break;
+                this.progressState = ProgressState.END;
+                mImageView.showEndImage();
+                break;
+            case 4:
+                this.progressState = ProgressState.ERROR;
+                mImageView.showErrorImage();
+                break;
         }
     }
 

@@ -26,7 +26,7 @@ public class CustomImageView extends ImageView {
     private int desiredWidth;
 
     // images to be shown at start and end of progress.
-    private int mStartImage, mEndImage,mProgressImage,mPauseImage;
+    private int mStartImage, mEndImage,mProgressImage,mPauseImage,mErrorImage;
 
     /**
      * @param context 
@@ -171,6 +171,18 @@ public class CustomImageView extends ImageView {
             setImageResource(mEndImage);
     }
 
+
+    public void setErrorImage(int drawable) {
+        mErrorImage = drawable;
+    }
+
+    /**
+     * change the image drawable to the end image set.
+     */
+    public void showErrorImage() {
+        if (mErrorImage != 0)
+            setImageResource(mErrorImage);
+    }
 
 
     /**

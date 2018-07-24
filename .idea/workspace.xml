@@ -5,10 +5,18 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="902dfdec-bbdc-4348-ae0d-b9e97ff9d33b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+      <change beforePath="$PROJECT_DIR$/imageprogressbar/src/main/java/com/hs/progressbutton/CustomImageView.java" afterPath="$PROJECT_DIR$/imageprogressbar/src/main/java/com/hs/progressbutton/CustomImageView.java" />
+      <change beforePath="$PROJECT_DIR$/imageprogressbar/src/main/java/com/hs/progressbutton/CustomProgressBar.java" afterPath="$PROJECT_DIR$/imageprogressbar/src/main/java/com/hs/progressbutton/CustomProgressBar.java" />
       <change beforePath="$PROJECT_DIR$/imageprogressbar/src/main/java/com/hs/progressbutton/ProgressImageView.java" afterPath="$PROJECT_DIR$/imageprogressbar/src/main/java/com/hs/progressbutton/ProgressImageView.java" />
+      <change beforePath="$PROJECT_DIR$/imageprogressbar/src/main/res/layout/progressbar.xml" afterPath="$PROJECT_DIR$/imageprogressbar/src/main/res/layout/progressbar.xml" />
       <change beforePath="$PROJECT_DIR$/imageprogressbar/src/main/res/values/attrs.xml" afterPath="$PROJECT_DIR$/imageprogressbar/src/main/res/values/attrs.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -194,8 +202,8 @@
       <file leaf-file-name="attrs.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imageprogressbar/src/main/res/values/attrs.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="39" />
+            <state relative-caret-position="234">
+              <caret line="13" column="50" lean-forward="false" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -207,28 +215,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="360">
+              <caret line="20" column="43" lean-forward="false" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -237,23 +225,10 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/hs/progressbar/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="38" column="54" lean-forward="false" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+            <state relative-caret-position="0">
+              <caret line="19" column="60" lean-forward="false" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="R.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/hs/progressbar/R.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170964">
-              <caret line="9503" column="55" lean-forward="false" selection-start-line="9503" selection-start-column="55" selection-end-line="9503" selection-end-column="55" />
-              <folding>
-                <marker date="1531471418347" expanded="true" signature="80452:80467" ph="/**...*/" />
-                <marker date="1531471418347" expanded="true" signature="526052:602715" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -262,23 +237,81 @@
       <file leaf-file-name="ProgressImageView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imageprogressbar/src/main/java/com/hs/progressbutton/ProgressImageView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="135" column="59" lean-forward="false" selection-start-line="135" selection-start-column="59" selection-end-line="135" selection-end-column="59" />
+            <state relative-caret-position="2538">
+              <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
               <folding>
-                <element signature="e#932#933#0" expanded="true" />
-                <element signature="e#963#964#0" expanded="true" />
-                <element signature="e#992#993#0" expanded="true" />
-                <element signature="e#1028#1029#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#949#950#0" expanded="true" />
+                <element signature="e#982#983#0" expanded="true" />
+                <element signature="e#1012#1013#0" expanded="true" />
+                <element signature="e#1048#1049#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gradle.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <file leaf-file-name="CustomImageView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imageprogressbar/src/main/java/com/hs/progressbutton/CustomImageView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="2880">
+              <caret line="168" column="23" lean-forward="false" selection-start-line="168" selection-start-column="16" selection-end-line="168" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="progressbar.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imageprogressbar/src/main/res/layout/progressbar.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="circular.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imageprogressbar/src/main/res/drawable/circular.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="circular1.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imageprogressbar/src/main/res/drawable/circular1.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomProgressBar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imageprogressbar/src/main/java/com/hs/progressbutton/CustomProgressBar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Field.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/harish/installation/Android/Sdk/sources/android-27/java/lang/reflect/Field.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5094">
+              <caret line="322" column="25" lean-forward="false" selection-start-line="322" selection-start-column="25" selection-end-line="322" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -288,8 +321,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ring_color</find>
       <find>ringColor</find>
+      <find>background</find>
+      <find>mSolidColors</find>
+      <find>backgroun</find>
+      <find>gradientstat</find>
+      <find>setsolidcolor</find>
+      <find>mSol</find>
+      <find>tint</find>
+      <find>mProgressBackgroundTintList</find>
+      <find>ProgressTintInfo</find>
+      <find>layer</find>
+      <find>color</find>
+      <find>mProgressTintInfo</find>
+      <find>getProgressTint</find>
+      <find>mProgressTintList</find>
+      <find>return mProgressTintInfo</find>
+      <find>TintInfo</find>
+      <find>ProgressTintInfo(</find>
+      <find>class ProgressTintInfo</find>
+      <find>mLayerPaint</find>
+      <find>secondary</find>
+      <find>new ProgressTintInfo</find>
+      <find>mInnerRa</find>
+      <find>mInnerRadius =</find>
+      <find>setCorner</find>
+      <find>setSecondaryProgress</find>
+      <find>setSecondaryProgress(</find>
+      <find>incrementSecondaryProgressBy</find>
+      <find>progress</find>
+      <find>.progress</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -3522,9 +3583,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/hs/progressbar/MainActivity.java" />
         <option value="$PROJECT_DIR$/gradle.properties" />
+        <option value="$PROJECT_DIR$/imageprogressbar/src/main/res/drawable/circular.xml" />
+        <option value="$PROJECT_DIR$/imageprogressbar/src/main/java/com/hs/progressbutton/CustomImageView.java" />
         <option value="$PROJECT_DIR$/imageprogressbar/src/main/res/values/attrs.xml" />
+        <option value="$PROJECT_DIR$/imageprogressbar/src/main/res/drawable/circular1.xml" />
         <option value="$PROJECT_DIR$/imageprogressbar/src/main/java/com/hs/progressbutton/ProgressImageView.java" />
+        <option value="$PROJECT_DIR$/imageprogressbar/src/main/res/layout/progressbar.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/imageprogressbar/src/main/java/com/hs/progressbutton/CustomProgressBar.java" />
       </list>
     </option>
   </component>
@@ -3549,6 +3617,132 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ProgressBar" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="ProgressBar" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="ProgressBar" type="58d84e3e:PackageViewProjectNode" />
+              <item name="imageprogressbar" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="ProgressBar" type="58d84e3e:PackageViewProjectNode" />
+              <item name="imageprogressbar" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="ProgressBar" type="58d84e3e:PackageViewProjectNode" />
+              <item name="imageprogressbar" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="hs" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="ProgressBar" type="58d84e3e:PackageViewProjectNode" />
+              <item name="imageprogressbar" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="hs" type="1f31426a:PackageElementNode" />
+              <item name="progressbutton" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ProgressBar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="ProgressBar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
+            </path>
+            <path>
+              <item name="ProgressBar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="ProgressBar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProgressBar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProgressBar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="hs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProgressBar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="hs" type="462c0819:PsiDirectoryNode" />
+              <item name="progressbar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProgressBar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="ProgressBar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="imageprogressbar" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="ProgressBar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="imageprogressbar" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="ProgressBar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="imageprogressbar" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProgressBar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="imageprogressbar" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="hs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProgressBar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="imageprogressbar" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="hs" type="462c0819:PsiDirectoryNode" />
+              <item name="progressbutton" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -3712,6 +3906,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="drawable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProgressBar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProgressBar" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="imageprogressbar" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
               <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -3727,136 +3930,19 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ProgressBar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="ProgressBar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
-            </path>
-            <path>
-              <item name="ProgressBar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="ProgressBar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProgressBar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProgressBar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="hs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProgressBar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="hs" type="462c0819:PsiDirectoryNode" />
-              <item name="progressbar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProgressBar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="ProgressBar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="imageprogressbar" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="ProgressBar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="imageprogressbar" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="ProgressBar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="imageprogressbar" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProgressBar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="imageprogressbar" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="hs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProgressBar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="imageprogressbar" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="hs" type="462c0819:PsiDirectoryNode" />
-              <item name="progressbutton" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ProgressBar" type="58d84e3e:PackageViewProjectNode" />
-              <item name="app" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="ProgressBar" type="58d84e3e:PackageViewProjectNode" />
-              <item name="app" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="ProgressBar" type="58d84e3e:PackageViewProjectNode" />
-              <item name="imageprogressbar" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="ProgressBar" type="58d84e3e:PackageViewProjectNode" />
-              <item name="imageprogressbar" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="ProgressBar" type="58d84e3e:PackageViewProjectNode" />
-              <item name="imageprogressbar" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="hs" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="ProgressBar" type="58d84e3e:PackageViewProjectNode" />
-              <item name="imageprogressbar" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="hs" type="1f31426a:PackageElementNode" />
-              <item name="progressbutton" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="device.picker.selection" value="FA6A50311157" />
+    <property name="device.picker.selection" value="FA6A40308532" />
+    <property name="DEBUGGABLE_DEVICE" value="google-pixel-FA6A40308532" />
+    <property name="DEBUGGABLE_PROCESS" value="com.example.hs.progressbar" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="DEBUGGER_ID" value="Auto" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/imageprogressbar/src/main/res/drawable" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -4027,28 +4113,29 @@
     <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66976744" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.52436197" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32659408" sideWeight="0.5030303" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5349922" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32503888" sideWeight="0.4969697" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39968896" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.52436197" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32659408" sideWeight="0.5030303" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33903578" sideWeight="0.4969697" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61897355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.47563806" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32503888" sideWeight="0.4969697" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281493" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Fabric" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -4057,7 +4144,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281493" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Autodoc" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -4097,58 +4183,76 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/imageprogressbar/src/main/java/com/hs/progressbutton/CustomProgressBar.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/imageprogressbar/src/main/java/com/hs/progressbutton/CustomProgressBar.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>mProgressBar.getSecondaryProgress()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cc.</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cc.get(this)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(ProgressBar)cc.get(this)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cc.get()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cc.get(aClass)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cc.get(this.getClass().getSuperclass())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cc.get(this.getClass())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cc.get((ProgressBar)this)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/harish/installation/Android/Sdk/sources/android-27/android/graphics/drawable/ShapeDrawable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2989">
-          <caret line="101" column="13" lean-forward="false" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/harish/installation/Android/Sdk/sources/android-27/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="1765" column="29" lean-forward="false" selection-start-line="1765" selection-start-column="29" selection-end-line="1765" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fabbutton-1.2.1.aar/0653ced0f54ce16044320c5a51604ee2/res/layout/widget_fab_button.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/mbanje.kurt/fabbutton/1.2.1/f21616b5e1963919b86775000ccf48c086428e8e/fabbutton-1.2.1-sources.jar!/mbanje/kurt/fabbutton/CircleImageView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="210" column="18" lean-forward="false" selection-start-line="210" selection-start-column="8" selection-end-line="210" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/mbanje.kurt/fabbutton/1.2.1/f21616b5e1963919b86775000ccf48c086428e8e/fabbutton-1.2.1-sources.jar!/mbanje/kurt/fabbutton/FabButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="99" column="21" lean-forward="false" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/audio_track_fade.png" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/audio_track.png" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/progressbar.xml" />
-    <entry file="file://$USER_HOME$/harish/installation/Android/Sdk/sources/android-27/android/graphics/drawable/GradientDrawable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15534">
-          <caret line="936" column="36" lean-forward="false" selection-start-line="936" selection-start-column="36" selection-end-line="936" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/harish/installation/Android/Sdk/sources/android-27/android/content/res/TypedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -4185,16 +4289,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ttnd/progressbar/CustomProgressBar.java" />
-    <entry file="file://$PROJECT_DIR$/imageprogressbar/src/main/res/drawable/circular.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/attrs.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/custom_image_view.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ttnd/progressbar/ProgressImageView.java" />
@@ -4273,36 +4367,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/example/hs/progressbar/ExampleInstrumentedTest.java" />
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/hs/progressbar/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170964">
-          <caret line="9503" column="55" lean-forward="false" selection-start-line="9503" selection-start-column="55" selection-end-line="9503" selection-end-column="55" />
-          <folding>
-            <marker date="1531471418347" expanded="true" signature="80452:80467" ph="/**...*/" />
-            <marker date="1531471418347" expanded="true" signature="526052:602715" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imageprogressbar/src/main/java/com/hs/progressbutton/CustomProgressBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="37" column="50" lean-forward="false" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imageprogressbar/build/tmp/javadoc/javadoc.options" />
-    <entry file="file://$PROJECT_DIR$/imageprogressbar/src/main/res/layout/progressbar.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/harish/installation/Android/Sdk/sources/android-27/android/util/AttributeSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="774">
@@ -4314,7 +4379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4322,16 +4386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/hs/progressbar/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="38" column="54" lean-forward="false" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4346,15 +4400,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="85" column="9" lean-forward="false" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imageprogressbar/src/main/java/com/hs/progressbutton/CustomImageView.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/hs/progressbar/Model.java" />
+    <entry file="file://$PROJECT_DIR$/app/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="28" column="39" lean-forward="false" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="36">
+          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -4366,20 +4419,276 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/hs/progressbar/Model.java" />
-    <entry file="file://$PROJECT_DIR$/app/.gitignore">
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/hs/progressbar/R.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        <state relative-caret-position="171072">
+          <caret line="9509" column="55" lean-forward="false" selection-start-line="9509" selection-start-column="55" selection-end-line="9509" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="270">
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/harish/installation/jdk1.8.0_51/javafx-src.zip!/com/sun/glass/ui/PlatformFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/harish/installation/Android/Sdk/sources/android-27/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="853">
+          <caret line="1765" column="29" lean-forward="false" selection-start-line="1765" selection-start-column="29" selection-end-line="1765" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/harish/installation/Android/Sdk/sources/android-27/android/graphics/drawable/Drawable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="1457" column="28" lean-forward="false" selection-start-line="1457" selection-start-column="28" selection-end-line="1457" selection-end-column="28" />
+          <folding>
+            <element signature="e#56251#56252#0" expanded="false" />
+            <element signature="e#56278#56279#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/harish/installation/Android/Sdk/sources/android-27/java/lang/reflect/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5094">
+          <caret line="322" column="25" lean-forward="false" selection-start-line="322" selection-start-column="25" selection-end-line="322" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/harish/installation/Android/Sdk/sources/android-27/android/graphics/drawable/GradientDrawable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10656">
+          <caret line="664" column="16" lean-forward="false" selection-start-line="664" selection-start-column="16" selection-end-line="664" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/harish/installation/Android/Sdk/sources/android-27/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="15776" column="19" lean-forward="false" selection-start-line="15776" selection-start-column="19" selection-end-line="15776" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/harish/installation/Android/Sdk/sources/android-27/android/widget/ProgressBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="1434" column="29" lean-forward="false" selection-start-line="1434" selection-start-column="29" selection-end-line="1434" selection-end-column="29" />
+          <folding>
+            <element signature="docComment;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;field#PROGRESS_ANIM_INTERPOLATOR#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;field#PROGRESS_ANIM_DURATION#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;field#mVisualProgress#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#ProgressBar#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#ProgressBar#1;class#ProgressBar#0" expanded="false" />
+            <element signature="method#ProgressBar#2;class#ProgressBar#0" expanded="false" />
+            <element signature="method#ProgressBar#3;class#ProgressBar#0" expanded="false" />
+            <element signature="e#9785#9852#0" expanded="false" />
+            <element signature="docComment;method#needsTileify#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#needsTileify#0;class#ProgressBar#0" expanded="false" />
+            <element signature="e#16860#16924#0" expanded="false" />
+            <element signature="docComment;method#tileify#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#tileify#0;class#ProgressBar#0" expanded="false" />
+            <element signature="e#17313#17384#0" expanded="false" />
+            <element signature="method#getDrawableShape#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#tileifyIndeterminate#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#tileifyIndeterminate#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#initProgressBar#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#initProgressBar#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#isIndeterminate#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#setIndeterminate#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#setIndeterminate#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#swapCurrentDrawable#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#getIndeterminateDrawable#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#setIndeterminateDrawable#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#setIndeterminateDrawable#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#setIndeterminateTintList#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#setIndeterminateTintList#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#getIndeterminateTintList#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#getIndeterminateTintList#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#setIndeterminateTintMode#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#setIndeterminateTintMode#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#getIndeterminateTintMode#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#getIndeterminateTintMode#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#applyIndeterminateTint#0;class#ProgressBar#0" expanded="false" />
+            <element signature="e#28201#28259#0" expanded="false" />
+            <element signature="docComment;method#setIndeterminateDrawableTiled#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#setIndeterminateDrawableTiled#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#getProgressDrawable#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#setProgressDrawable#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#setProgressDrawable#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#getMirrorForRtl#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#applyProgressTints#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#applyProgressTints#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#applyPrimaryProgressTint#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#applyPrimaryProgressTint#0;class#ProgressBar#0" expanded="false" />
+            <element signature="e#32101#32159#0" expanded="false" />
+            <element signature="docComment;method#applyProgressBackgroundTint#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#applyProgressBackgroundTint#0;class#ProgressBar#0" expanded="false" />
+            <element signature="e#33173#33231#0" expanded="false" />
+            <element signature="docComment;method#applySecondaryProgressTint#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#applySecondaryProgressTint#0;class#ProgressBar#0" expanded="false" />
+            <element signature="e#34245#34303#0" expanded="false" />
+            <element signature="docComment;method#setProgressTintList#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#setProgressTintList#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#getProgressTintList#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#getProgressTintList#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#setProgressTintMode#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#setProgressTintMode#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#getProgressTintMode#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#getProgressTintMode#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#setProgressBackgroundTintList#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#setProgressBackgroundTintList#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#getProgressBackgroundTintList#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#getProgressBackgroundTintList#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#setProgressBackgroundTintMode#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#setProgressBackgroundTintMode#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#getProgressBackgroundTintMode#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#getProgressBackgroundTintMode#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#setSecondaryProgressTintList#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#setSecondaryProgressTintList#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#getSecondaryProgressTintList#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#getSecondaryProgressTintList#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#setSecondaryProgressTintMode#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#setSecondaryProgressTintMode#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#getSecondaryProgressTintMode#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#getSecondaryProgressTintMode#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#getTintTarget#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#getTintTarget#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#setProgressDrawableTiled#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#setProgressDrawableTiled#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#getCurrentDrawable#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#verifyDrawable#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#jumpDrawablesToCurrentState#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#onResolveDrawables#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#onResolveDrawables#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#postInvalidate#0;class#ProgressBar#0" expanded="false" />
+            <element signature="class#RefreshProgressRunnable#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#run#0;class#RefreshProgressRunnable#0;class#ProgressBar#0" expanded="false" />
+            <element signature="class#RefreshData#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#obtain#0;class#RefreshData#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#doRefreshProgress#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#onProgressRefresh#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#setVisualProgress#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#setVisualProgress#0;class#ProgressBar#0" expanded="false" />
+            <element signature="e#49709#49770#0" expanded="false" />
+            <element signature="docComment;method#onVisualProgressChanged#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#onVisualProgressChanged#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#setProgress#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#setProgress#1;class#ProgressBar#0" expanded="false" />
+            <element signature="method#setProgress#1;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#getProgress#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#getSecondaryProgress#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#getSecondaryProgress#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#getMin#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#getMax#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#setMin#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#setMin#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#setMax#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#setMax#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#incrementProgressBy#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#incrementSecondaryProgressBy#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#incrementSecondaryProgressBy#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#startAnimation#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#startAnimation#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#stopAnimation#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#stopAnimation#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#setInterpolator#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#setInterpolator#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#setInterpolator#1;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#getInterpolator#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#onVisibilityAggregated#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#invalidateDrawable#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#updateDrawableBounds#0;class#ProgressBar#0" expanded="false" />
+            <element signature="e#62160#62223#0" expanded="false" />
+            <element signature="e#62707#62768#0" expanded="false" />
+            <element signature="method#onDraw#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#drawTrack#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#drawTrack#0;class#ProgressBar#0" expanded="false" />
+            <element signature="e#64514#64587#0" expanded="false" />
+            <element signature="method#onMeasure#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#drawableStateChanged#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#updateDrawableState#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#drawableHotspotChanged#0;class#ProgressBar#0" expanded="false" />
+            <element signature="class#SavedState#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#SavedState#0;class#SavedState#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#SavedState#1;class#SavedState#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#SavedState#1;class#SavedState#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#writeToParcel#0;class#SavedState#0;class#ProgressBar#0" expanded="false" />
+            <element signature="class#68370:68644" expanded="false" />
+            <element signature="method#onSaveInstanceState#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#onRestoreInstanceState#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#onAttachedToWindow#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#onDetachedFromWindow#0;class#ProgressBar#0" expanded="false" />
+            <element signature="e#70300#70389#0" expanded="false" />
+            <element signature="docComment;method#onInitializeAccessibilityEventInternal#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#onInitializeAccessibilityEventInternal#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#onInitializeAccessibilityNodeInfoInternal#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#onInitializeAccessibilityNodeInfoInternal#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#scheduleAccessibilityEventSender#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#scheduleAccessibilityEventSender#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#encodeProperties#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#encodeProperties#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;method#isAnimating#0;class#ProgressBar#0" expanded="false" />
+            <element signature="method#isAnimating#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;class#AccessibilityEventSender#0;class#ProgressBar#0" expanded="false" />
+            <element signature="class#AccessibilityEventSender#0;class#ProgressBar#0" expanded="false" />
+            <element signature="class#ProgressTintInfo#0;class#ProgressBar#0" expanded="false" />
+            <element signature="docComment;field#VISUAL_PROGRESS#0;class#ProgressBar#0" expanded="false" />
+            <element signature="class#74374:74822" expanded="false" />
+            <element signature="method#setValue#0;class#74374:74822" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imageprogressbar/src/main/res/values/attrs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="50" lean-forward="false" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imageprogressbar/src/main/res/drawable/circular.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imageprogressbar/src/main/res/drawable/circular1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/hs/progressbar/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="19" column="60" lean-forward="false" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -4388,29 +4697,53 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        <state relative-caret-position="360">
+          <caret line="20" column="43" lean-forward="false" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imageprogressbar/src/main/res/values/attrs.xml">
+    <entry file="file://$PROJECT_DIR$/imageprogressbar/src/main/java/com/hs/progressbutton/CustomProgressBar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="39" />
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imageprogressbar/src/main/res/layout/progressbar.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imageprogressbar/src/main/java/com/hs/progressbutton/CustomImageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2880">
+          <caret line="168" column="23" lean-forward="false" selection-start-line="168" selection-start-column="16" selection-end-line="168" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imageprogressbar/src/main/java/com/hs/progressbutton/ProgressImageView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="135" column="59" lean-forward="false" selection-start-line="135" selection-start-column="59" selection-end-line="135" selection-end-column="59" />
+        <state relative-caret-position="2538">
+          <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
           <folding>
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#963#964#0" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
           </folding>
         </state>
       </provider>

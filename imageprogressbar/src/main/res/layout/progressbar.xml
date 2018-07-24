@@ -12,8 +12,9 @@
     android:layout_height="match_parent"
     android:layout_alignParentBottom="true"
     android:layout_centerHorizontal="true"
+    android:secondaryProgress="100"
     android:max="100"
     android:progress="0"
-    android:progressDrawable="@drawable/circular" />
+    android:progressDrawable="@drawable/circular1" />
 
 </merge>

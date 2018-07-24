@@ -3,12 +3,11 @@ package com.hs.progressbutton;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.graphics.Canvas;
-import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
+import android.graphics.drawable.LayerDrawable;
 import android.os.Build;
 import android.util.AttributeSet;
 import android.widget.ProgressBar;
-
 import java.lang.reflect.Field;
 
 /**
@@ -40,8 +39,7 @@ public class CustomProgressBar extends ProgressBar {
     }
 
     /**
-     * 
-     * @param canvas 
+     * @param canvas
      */
     @Override
     protected synchronized void onDraw(Canvas canvas) {
@@ -49,38 +47,59 @@ public class CustomProgressBar extends ProgressBar {
     }
 
 
-
     /**
      * set the ring color showing the progess
-     * @param color 
+     *
+     * @param color
      */
-    public void setProgressColor( int color) {
-        Drawable drawable=getProgressDrawable();
+    public void setProgressColor(int color) {
+        LayerDrawable ld = (LayerDrawable)getProgressDrawable();
+        GradientDrawable drawable = (GradientDrawable) ld.findDrawableByLayerId(android.R.id.progress);
         ((GradientDrawable) drawable).setColor(color);
     }
 
     /**
      * set the radius for the progressbar/ring.Use this to set the size of the view.
-     * @param radius 
+     *
+     * @param radius
      */
     public void setInnerRadius(int radius) throws SecurityException, NoSuchFieldException, IllegalArgumentException, IllegalAccessException {
-        Drawable drawable=getProgressDrawable();
+//        Drawable drawable = getProgressDrawable();
+        LayerDrawable ld = (LayerDrawable)getProgressDrawable();
+        GradientDrawable drawable = (GradientDrawable) ld.findDrawableByLayerId(android.R.id.progress);
+        GradientDrawable drawable1 = (GradientDrawable) ld.findDrawableByLayerId(android.R.id.secondaryProgress);
+
         if (mDrawableState == null) mDrawableState = resolveState();
         if (mDrawableState != null) {
             Field innerRadius = resolveDeclaredField(mDrawableState, "mInnerRadius");
             innerRadius.setInt(drawable.getConstantState(), radius);
+            innerRadius.setInt(drawable1.getConstantState(), radius);
         }
     }
 
+
+    public void setColor(int color) throws SecurityException, IllegalArgumentException {
+        LayerDrawable ld = (LayerDrawable)getProgressDrawable();
+        GradientDrawable drawable = (GradientDrawable) ld.findDrawableByLayerId(android.R.id.secondaryProgress);
+        ((GradientDrawable) drawable).setColors(new int[]{color,color,color});
+//        this.setSecondaryProgressTintList(ColorStateList.valueOf(Color.RED));
+
+    }
+
+
     /**
      * set the thickness of the ring.
-     * @param thickness 
+     *
+     * @param thickness
      */
-    public void setThickness( int thickness) throws SecurityException, NoSuchFieldException, IllegalArgumentException, IllegalAccessException {
-        Drawable drawable=getProgressDrawable();
+    public void setThickness(int thickness) throws SecurityException, NoSuchFieldException, IllegalArgumentException, IllegalAccessException {
+        LayerDrawable ld = (LayerDrawable)getProgressDrawable();
+        GradientDrawable drawable = (GradientDrawable) ld.findDrawableByLayerId(android.R.id.progress);
+        GradientDrawable drawable1 = (GradientDrawable) ld.findDrawableByLayerId(android.R.id.secondaryProgress);
         if (mDrawableState == null) mDrawableState = resolveState();
         Field innerRadius = resolveDeclaredField(mDrawableState, "mThickness");
         innerRadius.setInt(drawable.getConstantState(), thickness);
+        innerRadius.setInt(drawable1.getConstantState(), thickness);
     }
 
 
