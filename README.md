@@ -32,6 +32,12 @@ Here is the list of properties you must use to configure this view:
  5. app:pause_image (drawable)  ==> image to be shown when progress is paused.
  6. app:end_image (drawable)  ==> image to be shown on completion of progress.
  7. app:ring_color (color)  ==> color of the circular progressbar.
+ 8. app:complete_ring_color (color) ==> color of circular progressbar on 100% progress
+ 9. app:state (integer) ==> use to define various states of view based on which image changes.
+  
+ 
  
  #Note:
  images on the view can be updated by calling updateProgressState method over the view with current state of progress.
+  Different states are (0==> ProgressImageView.ProgressState.START, 1==> ProgressImageView.ProgressState.PROGRESS,2==>   
+  ProgressImageView.ProgressState.PAUSED,3==> ProgressImageView.ProgressState.END)
