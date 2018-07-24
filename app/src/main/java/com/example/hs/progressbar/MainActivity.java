@@ -1,10 +1,12 @@
 package com.example.hs.progressbar;
 
+import android.databinding.DataBindingUtil;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.hs.progressbar.databinding.ActivityMainBinding;
 import com.hs.progressbutton.ProgressImageView;
 
 
@@ -15,9 +17,13 @@ int i=0;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        layout=findViewById(R.id.layout);
 
-        layout.setState(ProgressImageView.ProgressState.START.value()); // set initial state value
+        ActivityMainBinding b = DataBindingUtil.setContentView(this,R.layout.activity_main);
+
+        layout= b.layout;
+
+        final Model m=new Model();
+        b.setModel(m);
 
         layout.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,6 +36,7 @@ int i=0;
             }
         });
 
+
         new AsyncTask<Void,Integer,Void>(){
             @Override
             protected Void doInBackground(Void... voids) {
@@ -38,6 +45,11 @@ int i=0;
                     publishProgress(i);
                     try {
                         Thread.sleep(500);
+                        if(i%5==0){
+                            m.state.set(ProgressImageView.ProgressState.PAUSED.value());
+                        }else{
+                            m.state.set(ProgressImageView.ProgressState.START.value());
+                        }
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
@@ -48,7 +60,8 @@ int i=0;
             @Override
             protected void onProgressUpdate(Integer... values) {
                 super.onProgressUpdate(values);
-                layout.setProgress(values[0]);
+//                layout.setProgress(values[0]);
+                m.progress.set(values[0]);
             }
         }.execute();
     }

@@ -118,7 +118,7 @@ public class ProgressImageView extends FrameLayout {
             mProgressBar.setColor(secondaryProgressColor);
             mProgressBar.setInnerRadius(width - thickness);
             mProgressBar.setThickness(thickness);
-            // mProgressBar.setProgressColor(ringColor);
+             mProgressBar.setProgressColor(ringColor);
         } catch (NoSuchFieldException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {
